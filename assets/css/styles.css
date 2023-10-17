@@ -47,4 +47,42 @@ h3 {
     left:16%;
 }
 
+.task-one-img {
+    position:absolute;
+    left: -5%;
+    top:110%
+}
+
+.task-one-title {
+    font-family: "jomhuria", serif;
+    color: rgb(230, 222, 237);
+    font-size: 64px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    position: absolute;
+    top: 135%;
+    left: 50%;              
+    transform: translateX(-50%); 
+    width: 100%;            
+    height: 100%;            
+}
+
+.task-one-text {
+    font-family: "jomhuria", serif;
+    color: rgb(230, 222, 237);
+    font-size: 48px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    position: absolute;
+    top: 142%;
+    left: 50%;              
+    transform: translateX(-50%); 
+    width: 100%;            
+    height: 100%;            
+}
+
+
+
 
