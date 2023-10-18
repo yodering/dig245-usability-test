@@ -45,78 +45,93 @@
     
     
 
-    <div class="container">
-        <div class="text-center mt-5" id="home">
+    <div class="container mt-5">
+        <div class="text-center" id="home">
             <h1>Usability</h1>
         </div>
-        <div class="row mt-5">
-            <div class="col-md-6 col-sm-12 text-center offset-md-1 offset-sm-1">
-                <img src="assets/img/apple_logo.png" class="apple-img img-fluid mx-auto d-block">
+    
+        <div class="row mt-5 align-items-center">
+            <div class="col-md-2 offset-md-1 col-sm-12 text-center">
+                <!-- Use negative margin to move the logo up -->
+                <img src="assets/img/apple_logo.png" class="img-fluid mt-n4">
             </div>
-            <div class="col-md-5 col-sm-11">
-                <h3 class="text-center mt-4">A user's online experience is greatly influenced by a website's usability. This focuses on straightforward navigation, logical content structure, and effective user interactions. 
-                This website dives into the usability of Apple's site, where a user was asked to perform five tasks.</h3>
-            </div>
-        </div>
-        
-        
-        <!-- Task One -->
-        <div class="row mt-5 navbar-offset">
-            <div class="col-12">
-                <img src="assets/img/image 1.png" class="task-one-img img-fluid" id="test1">
-                <h2 class="task-one-title">Task One: Find a Macbook and Compare Specifications </h2>
-                <p class="task-one-text">User took  1 minute and 37 seconds to find where to compare Macbook specs</p>
-            </div>
-        </div>
-        <!-- Task Two -->
-        <div class="row mt-5 navbar-offset">
-            <div class="col-12">
-                <img src="assets/img/image 2.png" class="task-two-img img-fluid" id="test2">
-                <h2 class="task-two-title">Task Two: Sign up for an Apple Credit Card </h2>
-                <p class="task-two-text">User took 26.15 seconds to find where to sign up for an apple credit card</p>
-            </div>
-        </div>
-        <!-- Task Three -->
-        <div class="row mt-5 navbar-offset">
-            <div class="col-12">
-                <img src="assets/img/image 3.png" class="task-three-img img-fluid" id="test3">
-                <h2 class="task-three-title">Task Three: Purchase an Apple Air Tag  </h2>
-                <p class="task-three-text">User took 26.15 seconds to find where to sign up for an apple credit card</p>
-            </div>
-        </div>
-        <!-- Task Four -->
-        <div class="row mt-5 navbar-offset">
-            <div class="col-12">
-                <img src="assets/img/image 4.png" class="task-four-img img-fluid" id="test4">
-                <h2 class="task-four-title">Task Four: Look for Repair Options </h2>
-                <p class="task-four-text">User took 26.15 seconds to find where to sign up for an apple credit card</p>
-            </div>
-        </div>
-        <!-- Task Five -->
-        <div class="row mt-5 navbar-offset"></div>
-            <div class="col-12">
-                <img src="assets/img/image 5.png" class="task-five-img img-fluid" id="test5">
-                <h2 class="task-five-title">Task Five: Find Nearest Store </h2>
-                <p class="task-five-text">User took 26.15 seconds to find where to sign up for an apple credit card</p>
-            </div>
-        </div>
-        <!-- SUS Test -->
-        <div class="row mt-5 navbar-offset">
-            <div class="col-12">
-                <h2 class="sus-title" id="sus">Calculate SUS Score </h2>
-                <p class="sus-text">The System Usability Scale is a reliable tool for measuring the usability of a website.</p>
-            </div>
-        <div class="row mt-5 navbar-offset">
-            <div class="col-12">
-                <label for="q1" class="sus-text-q1">I think that I would like to use this system frequently.</label>
-                <input type="number" value="4" name="q1" id="q1" min="0" max="5" class="q1-box" required>
-            </div>
-            <div class="col-12">
-                <label for="q1" class="sus-text-q2">I found the system unnecessarily complex.</label>
-                <input type="number" value="4" name="q1" id="q1" min="0" max="5" class="q2-box" required>
+            <div class="col-md-7 offset-md-1 col-sm-12 mt-3">
+                <h3>A user's online experience is greatly influenced by a website's usability. This focuses on straightforward navigation, logical content structure, and effective user interactions. 
+                    This website dives into the usability of Apple's site, where a user was asked to perform five tasks.</h3>
             </div>
         </div>
     </div>
+
+    <!-- Task One -->
+
+    <div class="large-margin-top"> <!-- This container will push everything inside it down -->
+        <img src="assets/img/image 1.png" class="img-fluid mb-3 img-width" id="test1">
+        <div class="container mt-5">
+            <div class="row mt-5 align-items-center">
+                <div class="col-12">
+                    <h2 class="text-center">Task One: Find a Macbook and Compare Specifications </h2>
+                    <p class="text-center">User took 1 minute and 37 seconds to find where to compare Macbook specs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Two -->
+
+    <div class="large-margin-top">
+        <img src="assets/img/image 2.png" class="img-fluid mb-3 img-width" id="test2">
+        <div class="container mt-5">
+            <div class="row mt-5 align-items-center">
+                <div class="col-12">
+                    <h2 class="text-center">Task Two: Sign up for an Apple Credit Card </h2>
+                    <p class="text-center">User took 26.15 seconds to find where to sign up for an apple credit card</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Task Three -->
+
+    <div class="large-margin-top">
+        <img src="assets/img/image 3.png" class="img-fluid mb-3 img-width" id="test3">
+        <div class="container mt-5">
+            <div class="row mt-5 align-items-center">
+                <div class="col-12">
+                    <h2 class="text-center">Task Three: Purchase an Apple Air Tag </h2>
+                    <p class="text-center">User took 11 seconds to find where purchase an Apple Air Tag</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Four -->
+
+    <div class="large-margin-top">
+        <img src="assets/img/image 4.png" class="img-fluid mb-3 img-width" id="test4">
+        <div class="container mt-5">
+            <div class="row mt-5 align-items-center">
+                <div class="col-12">
+                    <h2 class="text-center">Task Four: Look for Repair Options</h2>
+                    <p class="text-center">User took 15 seconds to find the repair options</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Five -->
+
+    <div class="large-margin-top">
+        <img src="assets/img/image 5.png" class="img-fluid mb-3 img-width" id="test5">
+        <div class="container mt-5">
+            <div class="row mt-5 align-items-center">
+                <div class="col-12">
+                    <h2 class="text-center">Task Five: Find Nearest Store</h2>
+                    <p class="text-center">User took 17 seconds to find the repair options</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- load javascript after the page elements render -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>

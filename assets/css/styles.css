@@ -4,13 +4,13 @@
     src: url(jomhuria.ttf) format("truetype");
 }
 
-.navbar {
-    padding: 0.2rem 1rem; 
+
+
+html {
+    height: 100%;
 }
 
-.navbar-nav .nav-link {
-    padding: 0.2rem 0.5rem;  
-}
+
 
 body {
     background: rgb(29,18,38);
@@ -21,461 +21,53 @@ body {
     background-attachment: fixed;
 }
 
-html {
-    height: 100%;
+.navbar {
+    padding: 0.2rem 1rem;
+    font-family: "jomhuria", serif;
+    font-size: 30px;
 }
 
-.nav-bar{
-    background-color: transparent;
+.navbar-nav .nav-link {
+    padding: 0.2rem 0.5rem;
 }
 
 h1 {
     font-family: "jomhuria", serif;
     font-size: 250px;
     color: rgb(230, 222, 237);
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 h3 {
     font-family: "jomhuria", serif;
     font-size: 48px;
     color: rgb(230, 222, 237);
-    height:330px;
-    width:643px;
-    position: absolute;
-    left:35%;
 }
 
-.apple-img {
-    position:absolute;
-    left:16%;
+h2 {
+    font-family: "jomhuria", serif;
+    font-size: 64px;
+    color: rgb(230, 222, 237);
 }
 
-.task-one-img {
-    position:absolute;
-    left: 0%;
-    top:110%;
-    object-fit: fill;
+p {
+    font-family: "jomhuria", serif;
+    font-size: 48px;
+    color: rgb(230, 222, 237);
+}
+
+.large-margin-top {
+    margin-top: 260px; 
+}
+
+
+.img-width {
+    width: 100vw; 
     height: 650px;
-    width:2000px;
-}
-
-.task-one-title {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 64px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 138%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.task-one-text {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 48px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 145%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-
-.task-two-img {
-    position:absolute;
-    left: 0%;
-    top:220%;
-    object-fit: fill;
-    height: 650px;
-    width:2000px;
-}
-
-.task-two-title {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 64px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 248%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.task-two-text {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 48px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 255%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.task-three-img {
-    position:absolute;
-    left: 0%;
-    top:330%;
-    object-fit: fill;
-    height: 650px;
-    width:2000px;
-}
-
-.task-three-title {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 64px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 358%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.task-three-text {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 48px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 365%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.task-four-img {
-    position:absolute;
-    left: 0%;
-    top:440%;
-    object-fit: fill;
-    height: 650px;
-    width:2000px;
-}
-
-.task-four-title {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 64px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 468%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.task-four-text {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 48px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 475%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.task-five-img {
-    position:absolute;
-    left: 0%;
-    top:550%;
-    object-fit: fill;
-    height: 650px;
-    width:2000px;
-}
-
-.task-five-title {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 64px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 578%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.task-five-text {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 48px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 585%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.sus-title {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 64px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 610%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.sus-text {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 48px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 620%;
-    left: 50%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.sus-text-q1 {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 48px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 630%;
-    left: 40%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.q1-box {
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 677%;
-    left: 62%;   
-    width:50px;
-    height:30px;                   
-}
-
-.sus-text-q2 {
-    font-family: "jomhuria", serif;
-    color: rgb(230, 222, 237);
-    font-size: 48px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 640%;
-    left: 36%;              
-    transform: translateX(-50%); 
-    width: 100%;            
-    height: 100%;            
-}
-
-.q2-box {
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    position: absolute;
-    top: 687%;
-    left: 62%;   
-    width:50px;
-    height:30px;                   
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto; 
 }
 
 
 
 
-
-
-
-
-
-
-
-@media (max-width: 992px) {
-    h1 {
-        font-size: 200px;
-    }
-
-    h3 {
-        font-size: 40px;
-    }
-
-    .task-one-title,
-    .task-two-title,
-    .task-three-title,
-    .task-four-title,
-    .task-five-title {
-        font-size: 54px;
-    }
-
-    .task-one-text,
-    .task-two-text,
-    .task-three-text,
-    .task-four-text,
-    .task-five-text {
-        font-size: 40px;
-    }
-
-    .task-one-title {
-        top: 115%; 
-    }
-
-    .task-one-text {
-        top: 122%; 
-    }
-
-    .task-two-title {
-        top: 225%; 
-    }
-
-    .task-two-text {
-        top: 232%; 
-    }
-    .task-three-title {
-        top: 335%; 
-    }
-
-    .task-three-text {
-        top: 342%; 
-    }
-
-    .task-four-title {
-        top: 445%; 
-    }
-
-    .task-four-text {
-        top: 452%; 
-    }
-
-    .task-five-title {
-        top: 555%; 
-    }
-
-    .task-five-text {
-        top: 562%; 
-    }
-
-}
-
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 150px;
-    }
-
-    h3 {
-        font-size: 32px;
-    }
-
-    .task-one-title,
-    .task-two-title,
-    .task-three-title,
-    .task-four-title,
-    .task-five-title {
-        font-size: 48px;
-    }
-
-    .task-one-text,
-    .task-two-text,
-    .task-three-text,
-    .task-four-text,
-    .task-five-text  {
-        font-size: 32px;
-    }
-
-    .apple-img {
-        width: 15%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .task-one-title {
-        top: 110%; 
-    }
-
-    .task-one-text {
-        top: 117%; 
-    }
-
-    .task-two-title {
-        top: 220%; 
-    }
-
-    .task-two-text {
-        top: 227%; 
-    }
-
-    .task-three-title {
-        top: 330%; 
-    }
-
-    .task-three-text {
-        top: 337%; 
-    }
-
-    .task-four-title {
-        top: 440%; 
-    }
-
-    .task-four-text {
-        top: 447%; 
-    }
-
-    .task-five-title {
-        top: 550%; 
-    }
-
-    .task-five-text {
-        top: 557%; 
-    }
-}
