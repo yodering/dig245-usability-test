@@ -274,6 +274,58 @@ h3 {
     height: 100%;            
 }
 
+.sus-text-q1 {
+    font-family: "jomhuria", serif;
+    color: rgb(230, 222, 237);
+    font-size: 48px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    position: absolute;
+    top: 630%;
+    left: 40%;              
+    transform: translateX(-50%); 
+    width: 100%;            
+    height: 100%;            
+}
+
+.q1-box {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    position: absolute;
+    top: 677%;
+    left: 62%;   
+    width:50px;
+    height:30px;                   
+}
+
+.sus-text-q2 {
+    font-family: "jomhuria", serif;
+    color: rgb(230, 222, 237);
+    font-size: 48px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    position: absolute;
+    top: 640%;
+    left: 36%;              
+    transform: translateX(-50%); 
+    width: 100%;            
+    height: 100%;            
+}
+
+.q2-box {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    position: absolute;
+    top: 687%;
+    left: 62%;   
+    width:50px;
+    height:30px;                   
+}
+
 
 
 
