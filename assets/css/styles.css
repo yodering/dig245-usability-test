@@ -58,7 +58,8 @@ h3 {
     left: 0%;
     top:110%;
     object-fit: fill;
-    width:1500px;
+    height: 650px;
+    width:2000px;
 }
 
 .task-one-title {
@@ -97,7 +98,8 @@ h3 {
     left: 0%;
     top:220%;
     object-fit: fill;
-    width:1500px;
+    height: 650px;
+    width:2000px;
 }
 
 .task-two-title {
@@ -135,7 +137,8 @@ h3 {
     left: 0%;
     top:330%;
     object-fit: fill;
-    width:1500px;
+    height: 650px;
+    width:2000px;
 }
 
 .task-three-title {
@@ -173,7 +176,8 @@ h3 {
     left: 0%;
     top:440%;
     object-fit: fill;
-    width:1500px;
+    height: 650px;
+    width:2000px;
 }
 
 .task-four-title {
@@ -211,7 +215,8 @@ h3 {
     left: 0%;
     top:550%;
     object-fit: fill;
-    width:1500px;
+    height: 650px;
+    width:2000px;
 }
 
 .task-five-title {
