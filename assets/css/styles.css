@@ -22,14 +22,15 @@ body {
 }
 
 .navbar {
-    padding: 0.2rem 1rem;
+    padding: 0.1rem 0.5rem;  /* Reduced padding from top/bottom and left/right */
     font-family: "jomhuria", serif;
     font-size: 30px;
 }
 
 .navbar-nav .nav-link {
-    padding: 0.2rem 0.5rem;
+    padding: 0.1rem 0.3rem;  /* Reduced padding from top/bottom and left/right */
 }
+
 
 h1 {
     font-family: "jomhuria", serif;
@@ -59,6 +60,9 @@ p {
     margin-top: 260px; 
 }
 
+.larger-margin-top {
+    margin-top: 400px; 
+}
 
 .img-width {
     width: 100vw; 
@@ -68,6 +72,19 @@ p {
     margin: 0 auto; 
 }
 
+label {
+    font-family: "jomhuria", serif;
+    font-size: 36px;
+    color: rgb(230, 222, 237);
+}
 
 
 
+[id]:before {
+    display: block;
+    content: " ";
+    margin-top: -50px;  
+    height: 50px;  
+    visibility: hidden;
+    pointer-events: none;
+}
