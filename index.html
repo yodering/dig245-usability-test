@@ -136,6 +136,7 @@
 
     <div class="larger-margin-top">
         <div class="container mb-3">
+             <form action="#" id="sus">
             <div class="row mt-5 align-items-center">
                 <div class="col-12" style="margin-bottom: 0px;">
                     <h2 class="text-center" id="sus">Calculate SUS Score</h2>
@@ -176,13 +177,28 @@
             </div>
         </div>
         <div class="container mb-3">
-            <div style="margin-bottom: 0px;">
-                <div class="col-12">
-                    <input type="number" value="4" name="q5" id="q5" min="0" max="5" required="">
-                    <label for="q5">I found the various functions in this system were well integrated.</label>
+            <div class="row align-items-center">
+                <div class="col-12 d-flex">
+                    
+                    <!-- Question input and label -->
+                    <div class="flex-grow-1">
+                        <input type="number" value="4" name="q5" id="q5" min="0" max="5" required="">
+                        <label for="q5">I found the various functions in this system were well integrated.</label>
+                    </div>
+                    
+                    <!-- Results label -->
+                    <div style="margin-left: 10px; margin-right: 20px; text-align: right;">
+                        <h3 class="mb-0">Results:</h3>
+                    </div>
+                    
+                    <!-- Results input box -->
+                    <div class="ml-3">
+                        <input type="number" step="any" id="result" class="form-control" style="width: 150px;">
+                    </div>
                 </div>
             </div>
         </div>
+        
         <div class="container mb-3">
             <div style="margin-bottom: 0px;">
                 <div class="col-12">
@@ -223,6 +239,19 @@
                 </div>
             </div>
         </div>
+        <div class="container mb-3" style="padding-bottom: 20px;">
+            <div class="row align-items-center">
+                <div class="col-sm-3 col-md-3 mt-2">
+                    <button type="submit" class="btn btn-primary" style="background-color: rgb(154, 118, 183); border-color: rgb(154, 118, 183); font-family: jomhuria, serif; font-size: 36px; padding: 0px 4px;">Update Score</button>
+                </div>
+                <div class="col-sm-9 col-md-9"></div> 
+            </div>
+        </div>
+        
+        
+        
+        
+        
     </div>
 
     
