@@ -32,3 +32,5 @@ myForm.addEventListener("submit", (event) => {
 
 	this.result.value = (q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10) * 2.5;;
 });
+
+console.log("https://www.figma.com/file/YCnqvof1nlv5IRPX9HIyUF/usability?type=design&node-id=0%3A1&mode=design&t=NVVCz8qTu4D8xzkl-1")
